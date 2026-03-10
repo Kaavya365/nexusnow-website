@@ -8,11 +8,11 @@
 
 html {
   scroll-behavior: smooth;
-  background: #07060F;
+  background: #1C1A2E;
 }
 
 body {
-  background: #07060F !important;
+  background: #1C1A2E !important;
   color: #E5E7EB;
   font-family: 'DM Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -22,11 +22,11 @@ body {
 }
 
 #root {
-  background: #07060F;
+  background: #1C1A2E;
   min-height: 100vh;
 }
 
 ::-webkit-scrollbar { width: 5px; }
-::-webkit-scrollbar-track { background: #07060F; }
+::-webkit-scrollbar-track { background: #1C1A2E; }
 ::-webkit-scrollbar-thumb { background: #2D1B69; border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: #6D28D9; }
