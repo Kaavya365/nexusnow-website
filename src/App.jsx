@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { HashRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Homepage from "./pages/Homepage";
 import ComingSoon from "./pages/ComingSoon";
@@ -13,7 +13,7 @@ function ScrollToTop() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <Navbar />
       <Routes>
@@ -45,6 +45,6 @@ export default function App() {
         <Route path="*" element={<ComingSoon page="Page Not Found" desc="This page doesn't exist — but we're building something great here." />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
