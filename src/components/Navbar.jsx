@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-const logoSrc = "/logo.png";
+import logoSrc from "../logo.png";
 
 const S = `
   .navbar {

@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-const logoSrc = "/logo.png";
+import logoSrc from "../logo.png";
 
 const footerStyles = `
   .footer {
