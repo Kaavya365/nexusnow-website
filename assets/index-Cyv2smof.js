@@ -70,9 +70,9 @@ Error generating stack: `+l.message+`
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --bg: #07060F;
-    --surface: #0D0B1A;
-    --elevated: #130F25;
+    --bg: #1C1A2E;
+    --surface: #232040;
+    --elevated: #2C2850;
     --purple-deep: #2D1B69;
     --purple-core: #6D28D9;
     --purple-mid: #7C3AED;
@@ -82,7 +82,7 @@ Error generating stack: `+l.message+`
     --white: #FFFFFF;
     --grey-100: #F3F4F6;
     --grey-200: #E5E7EB;
-    --grey-500: #6B7280;
+    --grey-500: #8B92A5;
     --glow: rgba(139,92,246,0.35);
   }
 
